@@ -1,0 +1,75 @@
+.maket {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font: bold 30px "Verdana";
+}
+
+.header {
+    height: 30px;
+    margin: 20px 10px 0 20px;
+    padding-top: 8px;
+    border: 1px solid black;
+    background-color: #3534fc;
+    text-align: center;
+    font: 20px "Verdana";
+    color: white;
+}
+
+.footer {
+    height: 60px;
+    margin: 20px 10px 5px 20px;
+    padding-top: 2%;
+    border: 1px solid black;
+    background-color: #3534fc;
+    text-align: center;
+    font: 20px "Verdana";
+    color: white;
+}
+
+.content {
+    margin: 20px 10px 5px 20px;
+}
+
+.like-sidebar-first {
+    display: inline-block; 
+    width: 26%;
+    height: 560px;
+    margin-right: 23px;
+    padding-top: 2%;
+    border: 1px solid black;
+    background-color: #35d008;
+    text-align: center;
+    font: bold 25px "Verdana";
+}
+.inside {
+    height: 400px;
+    margin: 50px 25px 30px;
+    padding-top: 30px;
+    border: 1px solid black;
+    background-color: #fdfe02;
+    text-align: center;
+    font: bold 20px "Verdana";
+}
+
+.like-sidebar-last {
+    display: inline-block; 
+    width: 26%;
+    height: 560px;
+    margin-left: 23px;
+    padding-top: 2%;
+    border: 1px solid black;
+    background-color: #35d008;
+    text-align: center;
+    font: bold 25px "Verdana";
+}
+
+.like-content {
+    display: inline-block;
+    width: 43%;
+    height: 560px;
+    padding-top: 2%;
+    border: 1px solid black;
+    background-color: #32ceff;
+    text-align: center;
+    font: bold 25px "Verdana";
+}
