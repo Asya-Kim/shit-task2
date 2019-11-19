@@ -1,0 +1,131 @@
+.background {
+    background-color: #a4d0d9;
+}
+
+.text-on-the-top {
+    display: inline-block;
+    margin-left: 15%;
+    color: #4c4e4e;
+    font: bold 30px "Courier";
+}
+
+.margin-left-top-buttons {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.buttons-top {
+    display: inline-block;
+    margin-right: 0;
+    padding: 4px;
+    text-align: center;
+    color:  #4c4e4e;
+    font: bold 17px "Courier";
+}
+
+.buttons-top:hover {
+    background-color: #4c4e4e;
+    border-color: #4c4e4e;
+    border-radius: 5px;
+    text-align: center;
+    color: #a4d0d9;
+}
+
+.text-in-the-center {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    font: bold 60px "Courier";
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-in-the-center {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.buttons{
+    display: inline-block;
+    margin: 20px 580px;
+}
+
+button {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding: 9px;
+    color: white;
+    background-color: #a4d0d9;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button:hover {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding: 9px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button:active {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding: 9px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button:focus {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding: 9px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.text-on-the-bottom {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+.block-one {
+    display: inline-block;
+}
+
+.block-two {
+    display: inline-block;
+}
+
+.block-three {
+    display: inline-block;
+}
