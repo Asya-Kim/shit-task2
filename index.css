@@ -24,6 +24,7 @@
 }
 
 .buttons-top:hover {
+    cursor: pointer;
     background-color: #4c4e4e;
     border-color: #4c4e4e;
     border-radius: 5px;
