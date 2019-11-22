@@ -4,19 +4,19 @@
     background-color: #a4d0d9;
 }
 
-.text-on-the-top {
+.top-text {
     display: inline-block;
-    margin-left: 15%;
+    margin-left: 130px;
     color: #4c4e4e;
     font: bold 30px "Courier";
 }
 
-.margin-left-top-buttons {
+.top-buttons-left-margin {
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 220px;
 }
 
-.buttons-top {
+.top-buttons {
     display: inline-block;
     margin-right: 0;
     padding: 4px;
@@ -25,7 +25,7 @@
     font: bold 17px "Courier";
 }
 
-.buttons-top:hover {
+.top-buttons:hover {
     cursor: pointer;
     background-color: #4c4e4e;
     border-color: #4c4e4e;
@@ -34,16 +34,18 @@
     color: #a4d0d9;
 }
 
-.block-in-the-center {
-    margin-top: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
+.center-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
-.text-in-the-center {
-    display: inline-block;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.center-text {
+    width: 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
     color: white;
     font: bold 60px "Courier";
@@ -54,9 +56,10 @@ p {
     margin-bottom: 0;
 }
 
-.img-in-the-center {
-    display: inline-block;
-    margin-left: 50px;
+.center-img {
+    margin-left: 3%;
+    width: 300px;
+     height: 300px; 
     text-align: center;
 }
 
@@ -66,9 +69,14 @@ p {
     padding-bottom: 2%;;
 }
 
-.text-on-the-bottom {
+.bottom-text-blocks {
     margin-left: 3%;
     margin-top: 30px;
+}
+
+.bottom-imgs {
+    width: 150px; 
+    height: 150px; 
 }
 
 .block-one {
@@ -86,8 +94,10 @@ p {
     height: 400px;
 }
 
-.for-the-bulb {
+.bottom-img-bulb {
     padding-bottom: 10px;
+    width: 70px; 
+    height: 100px; 
 }
 
 .block-three {
@@ -97,14 +107,14 @@ p {
     height: 400px;
 }
 
-.text-on-the-bottom-bold {
+.bottom-bold-text {
     margin-top: 5px;
     margin-bottom: 10px;
     text-align: center;
     font: bold 12px "Courier";
 }
 
-.text-on-the-bottom {
+.bottom-text {
     margin-top: 5px;
     margin-bottom: 0;
     text-align: center;
