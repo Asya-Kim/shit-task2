@@ -1,24 +1,24 @@
-/* Если ты используешь для margin и padding пиксели, то используй везде только их, а не пиксели в одном месте и проценты в другом */
-
+body {
+    margin: 0;
+}
 .background {
     background-color: #a4d0d9;
 }
 
 .top-text {
     display: inline-block;
-    margin-left: 130px;
+    margin: 0 130px 0 130px;
     color: #4c4e4e;
     font: bold 30px "Courier";
 }
 
 .top-buttons-left-margin {
     display: inline-block;
-    margin-left: 220px;
+    margin-left: 250px;
 }
 
 .top-buttons {
     display: inline-block;
-    margin-right: 0;
     padding: 4px;
     text-align: center;
     color:  #4c4e4e;
@@ -37,15 +37,14 @@
 .center-block {
     display: flex;
     justify-content: space-between;
-    margin-top: 0;
     margin-left: 130px;
     margin-right: 130px;
 }
 
 .center-text {
     width: 500px;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 130px;
+    padding-bottom: 130px;
     text-align: center;
     color: white;
     font: bold 60px "Courier";
@@ -57,21 +56,24 @@ p {
 }
 
 .center-img {
-    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
     width: 300px;
-     height: 300px; 
+    height: 300px; 
     text-align: center;
 }
 
 .center-buttons{
-    display: inline-block;
-    padding-left: 49%;
-    padding-bottom: 2%;;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 .bottom-text-blocks {
-    margin-left: 3%;
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 130px 0 130px;
 }
 
 .bottom-imgs {
@@ -80,29 +82,22 @@ p {
 }
 
 .block-one {
-    display: inline-block;
-    margin-top: 60px;
-    margin-right: 15px;
     width: 300px;
     height: 400px;
 }
 
 .block-two {
-    margin-top: 60px;
-    display: inline-block;
     width: 300px;
     height: 400px;
 }
 
 .bottom-img-bulb {
-    padding-bottom: 10px;
+    padding: 25px 0 25px 0;
     width: 70px; 
     height: 100px; 
 }
 
 .block-three {
-    margin-top: 60px;
-    display: inline-block;
     width: 300px;
     height: 400px;
 }
@@ -110,14 +105,11 @@ p {
 .bottom-bold-text {
     margin-top: 5px;
     margin-bottom: 10px;
-    text-align: center;
     font: bold 12px "Courier";
 }
 
 .bottom-text {
     margin-top: 5px;
-    margin-bottom: 0;
-    text-align: center;
     color: #4c4e4e;
     font: 11px "Courier";
 }
